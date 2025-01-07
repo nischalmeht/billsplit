@@ -12,16 +12,16 @@
             <p>Bill</p>
             <div class="input-container">
                 <span>&#8377;</span>
-                <input type="number">
+                <input type="number" id="bill-amount">
             </div>
             <p>Select Tip</p>
             <div class="tip-container">
-               <div class="tip">5%</div>
-               <div class="tip">10%</div>
-               <div class="tip">15%</div>
-               <div class="tip">25%</div>
-               <div class="tip">50%</div>
-               <div class="tip">75%</div>
+               <div class="tip" >5%</div>
+               <div class="tip" >10%</div>
+               <div class="tip" >15%</div>
+               <div class="tip" >25%</div>
+               <div class="tip" >50%</div>
+               <div class="tip" >75%</div>
             </div>
             <input class="custom-tip gray-input" type="number" placeholder="custom tip">
             <p>Number of People</p>
@@ -30,17 +30,17 @@
         </div>
         <div class="bill-output">
             <p class="tip-amount">Tip Amount
-                <span>&#8377;10</span>
+                <span>&#8377;</span>
             </p>
             <p class="total">Total
-                <span>&#8377;20</span>
+                <span>&#8377;</span>
             </p>
             <p class="each-person-bill">Each Person Bill
-                <span>&#8377;40</span>
+                <span>&#8377;</span>
             </p>
-            <button class="reset-btn">Reset</button>
+            <button class="reset-btn" onclick="reset()">Reset</button>
         </div>
     </main>
-    
+    <script src="script.js"></script>
 </body>
 </html>
